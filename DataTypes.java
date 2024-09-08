@@ -2,7 +2,7 @@ public class DataTypes {
     public static void main(String[] args) {
         int i = 5;
         float f = 10.5f;
-        char c = 'c';
+        char c = 'q';
         boolean b = true;
         short s = 166;
         long l = 123567;
@@ -13,5 +13,13 @@ public class DataTypes {
         System.out.println("short is \t" + s);
         System.out.println("boolean is \t" + b);
         System.out.println("all value is:" + i + c + b + s + l + f);
+
+        // Formate Specifier
+        System.out.printf("boolean is %b character is %c\n",b, c);
+
+        String name="Idba Islam";
+        int batch =41;
+        char Section ='A';
+        System.out.printf("My Name is %s. My Section is %d-%c. \n", name, batch, Section);
     }
 }
