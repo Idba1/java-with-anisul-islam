@@ -9,6 +9,9 @@ public class Bio {
         System.out.println("1\t2\t3\t4");
         System.out.println("\"java programming\"");
 
-        // using comments
+        // using single line comments
+        /*
+         * multiple line comments
+         */
     }
 }
